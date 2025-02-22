@@ -8,11 +8,17 @@
 
 int main() {
 
-    char [30] cidade1, cidade2;
+    //PT = Numero de ponto turisticos
+    //Codigo = Codigo da carta ex A01 B02
+
+    char nome[30] cidade1, cidade2;
+    char codigo1, codigo2;
     int populacao1, populacao2;
     float area1, area2;
     float PIB1, PIB2;
-    int Pontos turísticos1, Pontos turísticos2;
+    int PT1, PT2;
+
+
 
 
 
