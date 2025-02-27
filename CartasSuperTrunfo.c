@@ -8,17 +8,38 @@
 
 int main() {
 
-    //PT = Numero de ponto turisticos
-    //Codigo = Codigo da carta ex A01 B02
+    
+    char nomedacidade[200];
+    char codigo[3];    
+    int populacao;
+    float area;
+    float PIB;
+    int Pontosturisticos;
 
-    char nome[30] cidade1, cidade2;
-    char codigo1, codigo2;
-    int populacao1, populacao2;
-    float area1, area2;
-    float PIB1, PIB2;
-    int PT1, PT2;
+    printf("Digite nome da cidade:");
+    scanf(" %s\n", nomedacidade);
 
+    printf("Digite codigo da carta:");
+    scanf(" %s\n", codigo);
 
+    printf("Digite população:");
+    scanf(" %d\n", &populacao);
+
+    printf("Digite área:");
+    scanf(" %f\n", &area);
+
+    printf("Digite o produto interno bruto (PIB):");
+    scanf(" %f\n", &PIB);
+
+    printf("Digite quantidade de pontos turisticos:");
+    scanf(" %d\n", &Pontosturisticos);
+
+    printf("Cidade: %s\n", nomedacidade);
+    printf("Codigo da carta: %s\n", codigo);
+    printf("População: %d\n", &populacao);
+    printf("Area: %f\n", &area);
+    print("Produto interno bruto: %f\n", &PIB);
+    printf("Pontos turisticos: %d\n", &Pontosturisticos);
 
 
 
